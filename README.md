@@ -1,2 +1,31 @@
 # Biblioteca LED
-A Biblioteca LED é uma abstração orientada a objetos para controle e manipulação de LEDs em sistemas embarcados ou aplicações simuladas. O projeto aplica conceitos de Programação Orientada a Objetos (POO), como encapsulamento, herança e polimorfismo, para tornar o controle de LEDs mais modular, reutilizável e escalável.
+
+Biblioteca simples para controle não bloqueante de LED com Arduino e ESP32.
+
+A classe `Led` permite:
+
+- ligar o LED continuamente
+- ligar por um tempo determinado
+- desligar o LED
+- alternar o estado 
+- piscar continuamente
+- piscar uma quantidade definida de vezes 
+- piscar com uma frêquencia definida 
+
+O funcionamento é não bloqueante, usando `millis()`.
+Por isso, o método `update()` deve ser chamado repetidamente dentro do `loop()`.
+
+---
+
+## Estrutura da biblioteca 
+
+```text
+Biblioteca-LED/
+├── examples/
+├── src/
+│   ├── LED.cpp
+│   └── LED.h
+├── library.json
+├── LICENSE
+└── README.md
+
