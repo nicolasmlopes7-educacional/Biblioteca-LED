@@ -1,0 +1,2 @@
+# Biblioteca LED
+A Biblioteca LED é uma abstração orientada a objetos para controle e manipulação de LEDs em sistemas embarcados ou aplicações simuladas. O projeto aplica conceitos de Programação Orientada a Objetos (POO), como encapsulamento, herança e polimorfismo, para tornar o controle de LEDs mais modular, reutilizável e escalável.
